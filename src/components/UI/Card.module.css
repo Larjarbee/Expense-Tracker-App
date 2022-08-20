@@ -1,0 +1,20 @@
+.card {
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  max-width: 60%;
+  margin: 0px auto;
+  animation: animation 1s ease-out forwards;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

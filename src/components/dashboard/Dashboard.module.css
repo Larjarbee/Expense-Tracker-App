@@ -1,0 +1,25 @@
+.dashboard {
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    rgb(0, 89, 255),
+    rgb(0, 162, 255)
+  );
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  margin: 5px;
+}
+
+.expenses h4 {
+  color: red;
+}

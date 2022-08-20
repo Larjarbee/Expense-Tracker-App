@@ -1,0 +1,97 @@
+form h3 {
+  text-align: center;
+}
+
+.form {
+  max-width: 60%;
+  margin: 0px auto;
+  animation: animation 1s ease-out forwards;
+}
+
+.control input {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.invalid input {
+  border: 1px solid red;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+form button {
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    rgb(0, 89, 255),
+    rgb(0, 162, 255)
+  );
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+form button:disabled,
+form button:disabled:hover,
+form button:disabled:active {
+  background-color: #ccc;
+  color: white;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+form button:hover {
+  opacity: 0.5;
+}
+
+.button {
+  margin: 10px;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.button button {
+  border-radius: 40%;
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    rgb(0, 89, 255),
+    rgb(0, 162, 255)
+  );
+  color: white;
+  border: 2px solid blue;
+  animation: animation 1s ease-out forwards;
+}
+
+.button button h3 {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.red {
+  color: red;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
